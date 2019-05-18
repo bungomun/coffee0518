@@ -111,7 +111,12 @@
                 <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
                     <!-- 原先寬度參數可刪除 -->
                     <div class="card">
-                        <img src="./img/Coffee-goods_02.jpg" class="card-img-top" alt="...">
+                         <!-- Button trigger modal -->
+                        <!-- 去除框p-0 -->
+                        <button type="button" class="btn btn-primary p-0 " data-toggle="modal"
+                            data-target="#exampleModal2">
+                            <img src="./img/Coffee-goods_02.jpg" class="card-img-top" alt="...">
+                        </button>
                         <div class="card-body">
                             <h5 class="card-title">玫瑰 紅酒咖啡</h5>
                             <p class="card-text">一種咖啡兩種享受</p>
@@ -350,7 +355,7 @@
                     </div>
                     <div class="modal-body">
                         <!-- 放大200 -->
-                        <img src="./img/Coffee-goods_15.jpg" width="100%" alt="...">
+                        <img src="./img/Coffee-goods_01.jpg" width="100%" alt="...">
 
 
                     </div>
@@ -361,6 +366,33 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+          <!-- centered 置中.視窗加寬可到xl -->
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">放大</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- 放大200 -->
+                    <img src="./img/Coffee-goods_02.jpg" width="100%" alt="...">
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">0000</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
